@@ -3,6 +3,7 @@
 	"description": "Read and Write INI Configurations",
     "type": "library",
     "license": "LGPL-3.0",
+	"minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Matomo\\Ini\\": "src/"
