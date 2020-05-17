@@ -110,11 +110,13 @@ class IniWriter
     private function encodeValue($value)
     {
         if (is_bool($value)) {
-            return (int) $value;
+            return strval(boolval($value));
         }
         if (is_string($value)) {
             return "\"$value\"";
         }
+        if(is_numeric($value))
+        	return strval($value);
         return $value;
     }
 }
