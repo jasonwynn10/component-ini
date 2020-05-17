@@ -1,5 +1,6 @@
 {
-    "name": "matomo/ini",
+    "name": "jasonwynn10/ini",
+	"description": "Read and Write INI Configurations",
     "type": "library",
     "license": "LGPL-3.0",
     "autoload": {

@@ -1,4 +1,4 @@
-# Matomo/Ini
+# jasonwynn10/Ini
 
 Read and write INI configurations.
 
@@ -9,7 +9,7 @@ Read and write INI configurations.
 ## Installation
 
 ```json
-composer require matomo/ini
+composer require jasonwynn10/ini
 ```
 
 ## Why?
@@ -71,3 +71,6 @@ To run the performance tests:
 ```
 php -n vendor/bin/athletic -p tests/PerformanceTest
 ```
+
+
+#### This is a forked project. I am not 
